@@ -1,0 +1,22 @@
+{
+  "name": "epm-ui-simple-spring-boot",
+  "description": "EPM UI Spring Boot Simple",
+  "main": "",
+  "authors": "BONC R&D Center",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "homepage": "http://www.bonc.com.cn",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.5.4",
+    "epm-ui-react": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-react/-/epm-ui-react-0.5.3.tgz",
+    "epm-ui-css": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-css/-/epm-ui-css-0.5.3.tgz",
+    "epm-ui-react-graphics": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-react-graphics/-/epm-ui-react-graphics-0.1.2.tgz"
+  }
+}
