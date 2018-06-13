@@ -32,6 +32,7 @@ const babelTask = {
           'react': 'React',
           'react-dom': 'ReactDOM',
           'epm-ui-react': 'EPMUIReact',
+          'emp-ui-react-graphics':'EMPUIReactGraphics',
           [ moduleConfig.components.exports ]: moduleConfig.components.global
         }
       } ]
@@ -73,7 +74,13 @@ const webpackTask = {
         commonjs2: 'epm-ui-react',
         commonjs: 'epm-ui-react',
         amd: 'epm-ui-react'
-      }
+      },
+      'epm-ui-react-graphics': {
+	    root: 'EPMUIReactGraphics',
+	    commonjs2: 'epm-ui-react-graphics',
+	    commonjs: 'epm-ui-react-graphics',
+	    amd: 'epm-ui-react-graphics'
+	 }
     },
     resolve: {
       extensions: [ '.js', '.jsx' ]
@@ -114,7 +121,13 @@ const webpackTask = {
         commonjs2: 'epm-ui-react',
         commonjs: 'epm-ui-react',
         amd: 'epm-ui-react'
-      }
+      },
+      'epm-ui-react-graphics': {
+	    root: 'EPMUIReactGraphics',
+	    commonjs2: 'epm-ui-react-graphics',
+	    commonjs: 'epm-ui-react-graphics',
+	    amd: 'epm-ui-react-graphics'
+	 }
     },
     resolve: {
       extensions: [ '.js', '.jsx' ]

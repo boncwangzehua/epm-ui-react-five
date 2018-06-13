@@ -13,7 +13,6 @@ class CustomComponent extends Component {
   }
 
   handleSubmit( data ) {
-    alert(1);
     this.setState( ( prevState ) => {
       prevState.items.push( data.item );
       return {
@@ -41,12 +40,14 @@ class CustomComponent extends Component {
         <Row>
           <Row.Col size={ 12 }>
             <h5>Todo List</h5>
-            <Form method="post" type="inline" async={ true } action="" onAfterSubmit={ this.handleAfterSubmit } onSubmit={ this.handleSubmit }>
+            <Form type="inline" async={ true } action="" onAfterSubmit={ this.handleAfterSubmit } onSubmit={ this.handleSubmit }>
               <Form.Item name="name">
                 <Input name="item" placeholder="New Todo" />
               </Form.Item>
-              <Button type="primary" htmlType="submit">Add</Button>
-            </Form>
+              <Form.Item>
+                  <Button type="primary" htmlType="submit">Add</Button>
+              </Form.Item>
+             </Form>
             <Divider />
             <p>{ this.state.items.length } to do</p>
             <Divider fitted />
@@ -58,7 +59,7 @@ class CustomComponent extends Component {
                         <Row.Col size={ 10 }>{ item }</Row.Col>
                         <Row.Col size={ 2 }>
                           <a className="epm col col-nm-2" type="icon" onClick={ this.handleClose.bind( this, index ) }>
-                            <Icon type="close" />
+                            <Icon icon="close" />
                           </a>
                         </Row.Col>
                       </Row> 
