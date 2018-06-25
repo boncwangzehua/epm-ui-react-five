@@ -31,10 +31,10 @@ public class ReactWebMvcConfiguration extends WebMvcConfigurerAdapter {
         if("j2v8".equals(engineName)) {
         	configurer.setScripts(
                     "/frame/j2v8-polyfill.js",
-                    "/static/bower_components/react/react.js",
-                    "/static/bower_components/react/react-dom-server.js",
+                    "/static/bower_components/react/react.development.js",
+                    "/static/bower_components/react/react-dom.development.js",
+                    "/static/bower_components/react/react-dom-server.browser.development.js",
                     "/static/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.js",
-                    "/static/bower_components/epm-ui-react-graphics/dist/umd/epm-ui-react-graphics.bundle.js",
                     "/static/components/components.js"
             );
             configurer.setRenderScrips(

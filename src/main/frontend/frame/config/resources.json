@@ -4,8 +4,8 @@
       "/bower_components/epm-ui-css/dist/css/epm-ui.css"
     ],
     "js": [
-      "/bower_components/react/react.js",
-      "/bower_components/react/react-dom.js",
+      "/bower_components/react/react.development.js",
+      "/bower_components/react/react-dom.development.js",
       "/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.js",
       "/components/components.js"
     ]
@@ -15,8 +15,8 @@
       "/bower_components/epm-ui-css/dist/css/epm-ui.min.css"
     ],
     "js": [
-      "/bower_components/react/react.min.js",
-      "/bower_components/react/react-dom.min.js",
+      "/bower_components/react/react.development.min.js",
+      "/bower_components/react/react-dom.development.min.js",
       "/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.min.js",
       "/components/components.min.js"
     ]
@@ -26,8 +26,8 @@
       "/bower_components/epm-ui-css/dist/css/epm-ui.min.css"
     ],
     "js": [
-      "/bower_components/react/react.min.js",
-      "/bower_components/react/react-dom.min.js",
+      "/bower_components/react/react.development.min.js",
+      "/bower_components/react/react-dom.development.min.js",
       "/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.min.js",
       "/components/components.min.js"
     ]
