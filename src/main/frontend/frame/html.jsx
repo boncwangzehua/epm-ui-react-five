@@ -34,7 +34,7 @@ export default ( props ) => {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge, chrome=1" />
         <title>{ page.title || 'EPM UI Page title' }</title>
-        <link rel="shortcut icon" href={ `${ contextPath }/icons/favicon.ico` } />
+        {/*<link rel="shortcut icon" href={ `${ contextPath }/icons/favicon.ico` } />
         <link rel="apple-touch-icon" sizes="57x57" href={ `${ contextPath }/icons/apple-icon-57x57.png` } />
         <link rel="apple-touch-icon" sizes="60x60" href={ `${ contextPath }/icons/apple-icon-60x60.png` } />
         <link rel="apple-touch-icon" sizes="72x72" href={ `${ contextPath }/icons/apple-icon-72x72.png` } />
@@ -48,7 +48,7 @@ export default ( props ) => {
         <link rel="icon" type="image/png" sizes="32x32" href={ `${ contextPath }/icons/favicon-32x32.png` } />
         <link rel="icon" type="image/png" sizes="96x96" href={ `${ contextPath }/icons/favicon-96x96.png` } />
         <link rel="icon" type="image/png" sizes="16x16" href={ `${ contextPath }/icons/favicon-16x16.png` } />
-        <link rel="manifest" href={ `${ contextPath }/icons/manifest.json` } />
+        <link rel="manifest" href={ `${ contextPath }/icons/manifest.json` } />*/}
         <meta name="msapplication-TileColor" content="#FFFFFF" />
         <meta name="msapplication-TileImage" content={ `${ contextPath }/icons/ms-icon-144x144.png` } />
         <meta name="theme-color" content="#FFFFFF" />

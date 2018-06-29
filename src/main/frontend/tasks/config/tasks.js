@@ -32,7 +32,7 @@ const babelTask = {
           'react': 'React',
           'react-dom': 'ReactDOM',
           'epm-ui-react': 'EPMUIReact',
-          'emp-ui-react-graphics':'EMPUIReactGraphics',
+          'epm-ui-react-graphics':'EPMUIReactGraphics',
           [ moduleConfig.components.exports ]: moduleConfig.components.global
         }
       } ]

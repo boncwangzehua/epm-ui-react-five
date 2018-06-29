@@ -7,6 +7,7 @@
       "/bower_components/react/react.development.js",
       "/bower_components/react/react-dom.development.js",
       "/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.js",
+      "/bower_components/epm-ui-react-graphics/dist/umd/epm-ui-react-graphics.bundle.nopolyfill.min.js",
       "/components/components.js"
     ]
   },
@@ -18,6 +19,7 @@
       "/bower_components/react/react.development.min.js",
       "/bower_components/react/react-dom.development.min.js",
       "/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.min.js",
+      "/bower_components/epm-ui-react-graphics/dist/umd/epm-ui-react-graphics.bundle.nopolyfill.min.js",
       "/components/components.min.js"
     ]
   },
@@ -29,6 +31,7 @@
       "/bower_components/react/react.development.min.js",
       "/bower_components/react/react-dom.development.min.js",
       "/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.min.js",
+      "/bower_components/epm-ui-react-graphics/dist/umd/epm-ui-react-graphics.bundle.nopolyfill.min.js",
       "/components/components.min.js"
     ]
   }

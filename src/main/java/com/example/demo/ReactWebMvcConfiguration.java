@@ -35,6 +35,7 @@ public class ReactWebMvcConfiguration extends WebMvcConfigurerAdapter {
                     "/static/bower_components/react/react-dom.development.js",
                     "/static/bower_components/react/react-dom-server.browser.development.js",
                     "/static/bower_components/epm-ui-react/dist/umd/epm-ui-react.bundle.js",
+                    "/static/bower_components/epm-ui-react-graphics/dist/umd/epm-ui-react-graphics.bundle.nopolyfill.js",
                     "/static/components/components.js"
             );
             configurer.setRenderScrips(
