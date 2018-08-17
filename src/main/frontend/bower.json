@@ -15,8 +15,8 @@
   ],
   "dependencies": {
     "react": "^16.0.0",
-    "epm-ui-react": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-react/-/epm-ui-react-0.5.3.tgz",
-    "epm-ui-css": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-css/-/epm-ui-css-0.5.3.tgz",
-    "epm-ui-react-graphics": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-react-graphics/-/epm-ui-react-graphics-0.1.3.tgz"
+    "epm-ui-react": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-react/-/epm-ui-react-0.5.8.tgz",
+    "epm-ui-css": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-css/-/epm-ui-css-0.5.8.tgz",
+    "epm-ui-react-graphics": "https://code.bonc.com.cn/nexus/repository/npm/epm-ui-react-graphics/-/epm-ui-react-graphics-0.1.5.tgz"
   }
 }
